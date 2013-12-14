@@ -1,0 +1,19 @@
+{
+    "background":{
+        "scripts":["js/main.js"]
+    },
+    "icons": {
+        "128": "icons/icon-128.png",
+        "16": "icons/icon-16.png",
+        "48": "icons/icon-48.png"
+    },
+    "name": "去优酷广告",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "去除优酷烦人的广告",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "http://*.youku.com/*"
+    ]
+}
